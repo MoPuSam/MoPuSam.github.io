@@ -2759,3 +2759,144 @@ code {
   margin: 0 1rem 0 0.6rem;
   color: rgba(117,117,117,0.5);
 }
+.busuanzi .separator {
+  margin: 0 0.3rem;
+}
+.busuanzi-uv {
+  color: #f4f5f5;
+}
+.busuanzi-uv i {
+  margin: 0 0.3rem 0 0;
+}
+.busuanzi-pv {
+  color: #f4f5f5;
+}
+.busuanzi-pv i {
+  margin: 0 0.3rem 0 0;
+}
+.algolia-mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1002;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51,51,51,0.7);
+}
+.algolia-popup {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  z-index: 1003;
+  margin-left: -350px;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 700px;
+  max-height: 80%;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f5f5;
+}
+.algolia-input-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  margin: 1rem 0;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.algolia-input-wrapper .ais-search-box {
+  margin: auto;
+}
+.algolia-input-wrapper input {
+  border: 2px solid rgba(73,177,245,0.5);
+  border-radius: 2rem;
+  padding: 0.4rem 0.8rem;
+  outline: 0;
+  -webkit-transition: border-color 0.3s;
+  -moz-transition: border-color 0.3s;
+  -o-transition: border-color 0.3s;
+  -ms-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+.algolia-input-wrapper input:hover,
+.algolia-input-wrapper input:focus {
+  border-color: #49b1f5;
+}
+.algolia-input-wrapper .ais-search-box {
+  max-width: 100%;
+}
+.algolia-close {
+  position: absolute;
+  top: 0;
+  right: 0.6rem;
+  font-size: 1.25em;
+  color: #666;
+  cursor: pointer;
+}
+.algolia-results {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 16rem;
+}
+.algolia-results em {
+  font-style: normal;
+  background-color: #fff494;
+}
+.algolia-hit-item::before {
+  content: '';
+  display: inline-block;
+  margin-right: 0.8rem;
+  border: 0.15rem solid #49b1f5;
+  border-radius: 50%;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #fff;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  transition: color 0.2s;
+}
+#algolia-pagination {
+  margin: 0.5rem 0;
+}
+#algolia-pagination ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.ais-pagination--item a {
+  border-bottom: 0;
+  display: block;
+  border-radius: 3px;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 18px;
+  line-height: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.ais-pagination--item a:hover {
+  border-bottom: 0;
+}
+.ais-pagination--item a:hover {
+  color: #fff;
+  background-color: #49b1f5;
+}
+#algolia-stats {
+  overflow: hidden;
+}
+.algolia-logo img {
+  width: 4rem;
+  height: 1.5rem;
+}
