@@ -68,7 +68,11 @@ body {
   font-size: 14px;
   line-height: 2;
   color: #333;
-  background-color: #f4f5f5;
+  background: -webkit-radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: -moz-radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: -o-radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: -ms-radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 a {
   border-bottom: 1px solid #d9ecfb;
